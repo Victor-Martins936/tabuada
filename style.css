@@ -1,0 +1,171 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: font1;
+    src: url(font/Cartoonero.ttf);
+}
+
+body {
+    font-family: font1;
+    text-align: center;
+    background: url(https://i5.walmartimages.com/seo/Poppy-Playtime-Group-Wall-Poster-22-375-x-34_b659ab31-cd83-4176-a5f2-04686f103942.11f230c10a624438aa461d07fbc68d48.jpeg);
+    background-color: black;
+    background-size: 1440px 680px;
+    background-repeat: no-repeat;
+}
+
+#container {
+    margin-top: 40px;
+    position: absolute;
+    border-radius: 10px;
+    padding-left: 90px;
+    padding-right: 90px;
+    left: 30%;
+    top: -50px;
+}
+
+#tabuada:hover{
+    background: #ffd00063;
+}
+
+h2{
+    cursor: default;
+    font-size: 2.1em;
+    background: #0011ff;
+    border: #000ba7 solid 3px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+tr{
+    /* background: #cf0000; */
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+table{
+    cursor: default;
+    border: #c00000 5px solid;
+    border-radius: 5px;
+}
+
+td{
+    padding: 5px;
+}
+
+th{
+    font-size: 1.3em;
+    padding: 5px;
+}
+
+h3{
+    cursor: default;
+    background: #0011ff;
+    border: #000ba7 solid 3px;
+    color: white;
+    margin-top: -1px;
+    margin-left: -15px;
+    margin-right: -15px;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1.5em;
+}
+
+h3:hover{
+    background: #000ba7;
+    border: #0011ff solid 3px;
+    color: #ffffff6b;
+}
+
+#tabuada{
+    background: #ffd000;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-top: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+input[type="number"] {
+    color: white;
+    font-family: font1;
+    font-size: 1.2em;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: #992900 solid 3px;
+    background-color: orangered;
+}
+
+input:active{
+    border: #992900 solid 3px;
+    background-color: orangered;
+}
+
+button {
+    font-family: font1;
+    font-size: 1.4em;
+    border: #0a660d solid 10px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #13a118;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+p{
+    font-size: 1.3em;
+}
+
+button:hover {
+    background-color: #2a682e;
+    border: #173b1a;
+    transform: translateY(-1px);
+}
+
+button:active {
+    transform: translateY(2px);
+}
+
+table {
+    text-align: center;
+    margin: auto;
+    background-color: #4caf4f6a;
+}
+
+footer{
+    background: #000000;
+    position: absolute;
+    bottom: 30px;
+    font-family: font1;
+    font-size: 1.7em;
+    padding: 10px;
+    left: 28%;
+    color: white;
+}
+
+.img1{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    background: black;
+    height: 135px;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.img2{
+    position: absolute;
+    bottom: 20px;
+    background: black;
+    height: 135px;
+    right: 0;
+}
